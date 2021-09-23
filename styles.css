@@ -1,6 +1,7 @@
 body{
   margin: 0%;
 font-family: 'Glory', sans-serif;
+background-color: #1C0B19;
 }
 .t1{
   margin: 3%;
@@ -8,12 +9,17 @@ font-family: 'Glory', sans-serif;
 }
 
 .p1{
-
+margin: 20%;
+box-shadow: 5px 5px 10px #4CAF50;
+background-color: #A53860;
+border-radius: 8px;
 }
 
 .p1-1{
   background-color:#61C9A8;
   padding: 5% 0;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
 }
 
 
@@ -24,11 +30,13 @@ font-family: 'Glory', sans-serif;
 .p1-2-1{
   background-color: #A53860;
 width: 50%;
+border-bottom-left-radius:8px;
 
 }
 
 .p1-2-2{background-color:#ADA8B6 ;
 width: 50%;
+border-bottom-right-radius:8px;
 }
 
 .p1-2 {
@@ -63,3 +71,7 @@ width: 50%;
 .p1-2-1-2-1 p{align-self:center;}
 
 .p1-1-1{max-width: 1000px;}
+
+.p1-2-2-1 ul{list-style: none;
+
+}
