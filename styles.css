@@ -52,7 +52,7 @@ width: 50%;
 
 .b1:hover{background-color: #61C9A8;}
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .p1-2 {
     flex-direction: column;}
   .p1-2-x{width: 100%;}
@@ -61,3 +61,5 @@ width: 50%;
 .p1-2-1-2-1{display: flex;}
 
 .p1-2-1-2-1 p{align-self:center;}
+
+.p1-1-1{max-width: 1000px;}
