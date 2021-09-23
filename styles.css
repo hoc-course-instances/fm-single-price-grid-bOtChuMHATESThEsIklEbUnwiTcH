@@ -1,12 +1,56 @@
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+body{
+  margin: 0%;
+font-family: 'Glory', sans-serif;
+}
+.t1{
+  margin: 3%;
+}
 
-body {
-  --cyan: hsl(179, 62%, 43%);
-  --cyan-lighter: hsl(179, 47%, 52%);
-  --yellow: hsl(71, 73%, 54%);
-  --lightGrey: hsl(204, 43%, 93%);
-  --blueGrey: hsl(218, 22%, 67%);
-  --white: hsl(69, 69%, 100%);
+.p1{
 
-  font-family: "Karla", sans-serif;
+}
+
+.p1-1{
+  background-color:#61C9A8;
+  padding: 5% 0;
+}
+
+
+
+
+
+
+.p1-2-1{
+  background-color: #A53860;
+width: 50%;
+
+}
+
+.p1-2-2{background-color:#ADA8B6 ;
+width: 50%;
+}
+
+.p1-2 {
+  display: flex;
+}
+
+.p1-2-x { padding: 5% 0;}
+
+.b1 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  margin-left: 3%; ;
+}
+
+@media only screen and (max-width: 600px) {
+  .p1-2 {
+    flex-direction: column;}
+  .p1-2-x{width: 100%;}
 }
